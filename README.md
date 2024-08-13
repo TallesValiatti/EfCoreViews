@@ -1,7 +1,7 @@
 # Integrating Database Views with Entity Framework Core in .NET
 
-This repo is about using Entity Framework Core, an ORM framework that simplifies data access and manipulation in relational databases using .NET code.
+This repo demonstrates how to use Entity Framework Core to integrate database views directly into your .NET application's source code.
 
-This article explores integrating database views into the application source code through migrations. 
+The implementation leverages EF Core migrations to manage database views alongside tables, ensuring that views are versioned and maintained within the same codebase. By embedding the views into the migration process, this approach eliminates the need for separate scripts or manual updates, keeping your database and application code in sync.
 
-This approach offers an efficient strategy to avoid separate versioning of views and streamline development and maintenance, ensuring that your database and application code remain synchronized and easier to manage.
+This method provides a streamlined and maintainable strategy for managing database views, making it easier to develop and evolve your application over time.
